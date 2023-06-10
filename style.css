@@ -9,7 +9,7 @@
 body {
     font-family: 'Lato', sans-serif;
     margin: 100px auto;
-    width: 70%;
+    width: 80%;
     background-color: gainsboro;
 }
 header {
@@ -40,16 +40,24 @@ header .header-right {
 
 header .header-right select {
     border: none;
+    outline: none;
     background-color: gainsboro;
+}
+
+header .header-right span {
+    font-weight: bold;
 }
 
 header .header-right input {
     border: none;
+    outline: none;
+    border-radius: 2px;
 }
 
 header .header-right i {
-    padding: 7px;
+    padding: 7px 9px;
     background-color: azure;
+    color: grey;
     border-radius: 2px;
 }
 
@@ -68,7 +76,7 @@ section .pushpin {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 20px;
+    gap: 5px;
     align-items: center;
     border-right: 0.5px solid rgb(237, 237, 237);
 }
@@ -77,10 +85,11 @@ section .pushpin img {
 }
 
 section .company {
-    padding: 10px;
+    padding: 15px 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: flex-start;
     gap: 10px;
     border-right: 0.5px solid rgb(237, 237, 237);
 }
@@ -92,16 +101,36 @@ section .company h2 {
 section .company .company-details {
     display: flex;
     justify-content: left;
+    align-items: center;
     gap: 10px;
     font-size: 12px;
     
 }
 
+section .company .company-details div {
+    width: 1px;
+    height: 13px;
+    border-right: 0.5px solid rgb(186, 186, 186);
+}
+
+section .company .company-details h4 {
+    color: grey;
+    font-size: 13px;
+    font-weight: 400;
+}
+
 section .company .company-details span {
     font-weight: bolder;
+    color: black;
+}
+
+section .company .company-details p {
+    color: rgb(222, 3, 3);
+    font-size: 11px;
 }
 
 section .advance-details {
+    padding: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -134,8 +163,9 @@ section .advance-details .enquiry {
 }
 section .advance-details .enquiry div {
     background-color: rgb(110, 180, 6);
+    color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     padding: 6px 12px;
 }
 
@@ -144,6 +174,7 @@ section .advance-details .enquiry .not-ordered {
 }
 
 section .advance-details .option {
+    padding: auto 50px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -151,12 +182,13 @@ section .advance-details .option {
 
 section .advance-details select {
     border: none;
+    font-size: 13px;
 }
 
 section .advance-details .decoration {
-    width: 100px;
+    width: 150px;
     height: 10px;
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: rgb(237, 237, 237);
 }
 
@@ -179,18 +211,30 @@ section .advance-details .percentage {
 section .advance-details .icon {
     display: flex;
     justify-content: space-around;
-    gap: 10px;
+    gap: 3px;
+    margin: 10px;
 }
 
 section .advance-details .icon div {
-    padding: 2px;
-    background-color: azure;
-    border-radius: 2px 4px;
+    margin: 5px;
+    padding: 1.5px 4px;
+    background-color: rgb(185, 185, 185);
+    border-radius: 3px;
+}
+
+section .advance-details .icon div p {
+    font-size: 9px;
+    font-weight: 700;
+    color: white;
 }
 
 section .advance-details .edit {
-    align-self: start;
-    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    gap: 15px;
+    margin-top: 15px;
 }
 
 
