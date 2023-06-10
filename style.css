@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 100px auto;
+    width: 70%;
+    background-color: gainsboro;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header .header-left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+
+header .header-left span img {
+    padding: 7px;
+    background-color: azure;
+    border-radius: 2px;
+}
+
+header .header-right {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+header .header-right select {
+    border: none;
+    background-color: gainsboro;
+}
+
+header .header-right input {
+    border: none;
+}
+
+header .header-right i {
+    padding: 7px;
+    background-color: azure;
+    border-radius: 2px;
+}
+
+section {
+    display: flex;
+    justify-content: left;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+section .pushpin {
+    margin-top: 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    align-items: center;
+    border-right: 0.5px solid rgb(237, 237, 237);
+}
+section .pushpin img {
+    padding: 8px;
+}
+
+section .company {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    border-right: 0.5px solid rgb(237, 237, 237);
+}
+
+section .company h2 {
+    font-size: 15px;
+}
+
+section .company .company-details {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    font-size: 12px;
+    
+}
+
+section .company .company-details span {
+    font-weight: bolder;
+}
+
+section .advance-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+section .advance-details .country {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 5px;
+}
+
+section .advance-details .country h2 {
+    font-size: 12px;
+}
+
+section .advance-details h4 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+section .advance-details .enquiry {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+    font-size: 10px;
+}
+section .advance-details .enquiry div {
+    background-color: rgb(110, 180, 6);
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+}
+
+section .advance-details .enquiry .not-ordered {
+    background-color: rgb(176, 101, 176);
+}
+
+section .advance-details .option {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section .advance-details select {
+    border: none;
+}
+
+section .advance-details .decoration {
+    width: 100px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(237, 237, 237);
+}
+
+section .advance-details h4 {
+    margin: 5px;
+    font-weight: bold;
+}
+
+section .advance-details .spend {
+    color: grey;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+section .advance-details .percentage {
+    color: green;
+    font-weight: 400;
+    font-size: 12px;
+}
+section .advance-details .icon {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+section .advance-details .icon div {
+    padding: 2px;
+    background-color: azure;
+    border-radius: 2px 4px;
+}
+
+section .advance-details .edit {
+    align-self: start;
+    margin-top: 0px;
+}
+
+
+
